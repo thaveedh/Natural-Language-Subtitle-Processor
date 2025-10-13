@@ -1,0 +1,20 @@
+# core
+ffmpeg-python
+faster-whisper            # or 'whisper' if you prefer OpenAI's
+torch                    # GPU build recommended
+srt                      # srt file builder
+numpy
+tqdm
+librosa
+soundfile
+
+# diarization
+pyannote.audio
+
+# optional: alignment + better timestamps
+whisperx                 # optional, or install whisperx from its repo
+
+# optional NLP postprocessing
+transformers             # for punctuation/capitalization models if you want
+sentencepiece            # optional for some models
+jiwer                    # WER metric for testing
