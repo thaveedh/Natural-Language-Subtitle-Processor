@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.mp4
+*.wav
+*.m4a
+*.zip
+*.tar
+*.json
+*.log
+*.sqlite
+*.db
